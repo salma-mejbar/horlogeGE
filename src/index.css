@@ -1,3 +1,112 @@
-h1 {
-    color: red;
+.container {
+    margin-top: 5%;
+    margin-left: 25%;
+    width: 700px;
+    height: 400px;
+    background-color: grey;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position : relative;
+}
+
+.container .dark {
+    background-color: black;
+}
+
+.watch {
+    width: 130px;
+    height: 130px;
+    background-color: transparent;
+    border:25px solid #640ACD;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;
+    margin:20px;
+}
+
+.watch.dark {
+    border:25px solid whitesmoke;
+    box-shadow: 0 0 30px 10px #640ACD;
+}
+
+.time {
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10%;
+    position: relative;
+}
+
+.time.dark {
+    background-color: black;
+    color: white;
+}
+
+#format {
+    position: absolute;
+    bottom: 5%;
+}
+
+.reset {
+    position: absolute;
+    bottom: 75%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.timezone-select {
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+}
+
+.watch-button {
+    width: 9%;
+    height: 9%;
+    background-color: #640ACD;
+    border: 0px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.seconds {
+    font-size: 13px;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.AM-PM {
+    font-size: 10px;
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+}
+  
+.mode {
+    transform: translate(-29px, -25px) rotate(+60deg);
+}
+  
+.increase {
+    transform: translate(-43px, +60px) rotate(+125deg);
+}
+  
+.light {
+    transform: translate(-190px, 45px) rotate(+230deg);
 }
